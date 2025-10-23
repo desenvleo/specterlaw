@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@media screen and (orientation: portrait) and (min-width: 400px) and (max-width: 768px) {
+
+    html,
+    body {
+        width: 100%;
+        min-height: 100vh;
+        overflow-x: hidden;
+        /* Força o background fixo a funcionar em iOS */
+        background: url(../imagenslanding/backgroundportrait.png) center center / cover no-repeat fixed;
+    }
+
+    main {
+        background: transparent;
+    }
+
+    .header ul {
+        display: none;
+    }
+
+    #botaocontato {
+        padding: 0.5em 1em;
+    }
+
+    .sectionTitulo {
+        height: 100vh;
+    }
+
+    .sectionTitulo h1 {
+        font-size: 3em;
+        left: 25%;
+    }
+
+    .sectionTitulo h2 {
+        top: 20%;
+        width: 70%;
+        font-size: 30px;
+        left: 20%;
+    }
+
+    .chat {
+        display: flex;
+        position: absolute;
+        top: 44%;
+        transform: translateX(-50%);
+    }
+
+    .sectionBlocos {
+        background:
+            linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+            url(../imagenslanding/portraitbg.jpg) center bottom / cover no-repeat;
+    }
+
+    .areasAtuacao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        text-align: center;
+        position: relative;
+        background-image: url(imagenslanding/shakehands3);
+        background-position: center center;
+    }
+
+    .areasList {
+        width: 68%;
+        /* padding-right: 0; */
+    }
+
+
+    .areasList ul.areas li {
+        display: block;
+        /* força o item a ocupar toda a largura disponível */
+        width: 100%;
+        /* ocupa 100% do container pai */
+        margin-bottom: 1em;
+        /* espaço entre os itens */
+    }
+
+    .areasList ul.areas li p {
+        margin: 0.3em 0;
+        /* menos espaço entre parágrafos */
+        line-height: 1.4em;
+        /* altura da linha legível */
+        white-space: normal;
+        /* força o texto a quebrar linhas naturalmente */
+        word-wrap: break-word;
+        /* quebra palavras muito longas se necessário */
+        overflow-wrap: break-word;
+        width: 100%;
+        /* compatibilidade extra */
+    }
+
+    .subexplica {
+        font-size: 12px;
+        /* ajusta tamanho para caber melhor */
+        display: none;
+    }
+
+    .sub {
+        font-size: 5px;
+    }
+
+    .formularios {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        margin: auto;
+    }
+
+    .formnewsletter,
+    .formconsulta {
+        background-image: linear-gradient(to right, #308C58, #0593f2);
+        padding: 1em 2em;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        gap: 2px;
+        font-size: 12px;
+        color: rgba(245, 245, 245, 0.753);
+    }
+
+    .footer .patrocinadores {
+        display: none;
+    }
+
+    .façaparte span {
+        font-size: 16px;
+    }
+
+
+}
