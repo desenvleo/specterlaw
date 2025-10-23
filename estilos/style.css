@@ -693,3 +693,55 @@ h6 {
 .desenv #criado {
   text-align: center;
 }
+
+/* landscape */
+
+@media screen and (orientation: landscape) and (min-width: 400px) and (max-width: 900px) {
+  /* Ajustes apenas para modo horizontal */
+
+  .header {
+    padding: 0.5em 2em;
+    height: 60px;
+  }
+
+  .sectionTitulo {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4em 6%;
+  }
+
+  .sectionTitulo h1 {
+    font-size: 2.6em;
+  }
+
+  .sectionTitulo h2 {
+    font-size: 1.4em;
+    max-width: 55%;
+  }
+
+  .sectionBlocos {
+    flex-wrap: wrap;
+    padding: 3em 2em;
+    gap: 1.5em;
+  }
+
+  .sectionBlocos .bloco {
+    flex: 1 1 45%;
+  }
+
+  .areasAtuacao {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 3em 4em;
+  }
+
+  .formularios {
+    width: 40%;
+  }
+
+  .footer {
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+  }
+}
