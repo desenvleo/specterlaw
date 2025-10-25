@@ -36,15 +36,6 @@
         height: 100vh;
     }
 
-    .sectionTitulo h1,
-    .sectionTitulo h2 {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        text-align: center;
-        width: 90%;
-        margin: 0;
-    }
 
     .sectionTitulo h1 {
         top: 30%;
