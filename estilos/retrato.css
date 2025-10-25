@@ -22,6 +22,7 @@
 
     main {
         background: transparent;
+        align-items: center;
     }
 
     .header ul {
