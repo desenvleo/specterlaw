@@ -38,19 +38,22 @@
 
 
     .sectionTitulo h1 {
-        top: 30%;
+        top: 20%;
         font-size: 2.5em;
     }
 
     .sectionTitulo h2 {
         top: 45%;
         font-size: 1.5em;
+        width: 80%;
     }
 
     .chat {
-        position: static;
+        position: absolute;
         transform: none;
         margin: 1em auto 0;
+        top: 60%;
+        left: 25%;
     }
 
     .sectionBlocos {
