@@ -38,12 +38,22 @@
 
     .sectionTitulo h1,
     .sectionTitulo h2 {
-        position: static;
-        left: auto;
-        top: auto;
-        transform: none;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
         text-align: center;
-        margin: 0.5em auto;
+        width: 90%;
+        margin: 0;
+    }
+
+    .sectionTitulo h1 {
+        top: 30%;
+        font-size: 2.5em;
+    }
+
+    .sectionTitulo h2 {
+        top: 45%;
+        font-size: 1.5em;
     }
 
     .chat {
