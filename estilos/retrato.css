@@ -11,11 +11,9 @@
         margin: 0;
         padding: 0;
         overflow-x: hidden;
-        /* impede borda branca no Safari */
+        /* Tira a borda branca. */
         box-sizing: border-box;
     }
-
-    
 
     .header ul {
         display: none;
@@ -26,6 +24,8 @@
         width: auto;
         position: relative;
         padding-bottom: 0;
+        min-height: 100dvh;
+        /* usa unidade dinâmica moderna */
     }
 
     .sectionTitulo h1 {
@@ -53,6 +53,8 @@
         display: flex;
         height: auto;
         background-image: url(../imagenslanding/lineargradient.png);
+        margin-top: 0;
+        padding-top: 0;
     }
 
     .areasAtuacao {
@@ -70,6 +72,6 @@
         height: auto;
     }
 
-    .primeiroform {}
+
 
 }
