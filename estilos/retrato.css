@@ -24,13 +24,13 @@
 }
 
 .sectionTitulo {
-    height: 100vh;
+
     width: auto;
     position: relative;
     padding-bottom: 0;
-    height: calc(100dvh - 70px);
-    /* subtrai a altura do header */
-    min-height: calc(100dvh - 70px);
+    min-height: calc(100svh - 70px);
+    /* Safari-friendly */
+    height: auto;
 }
 
 .sectionTitulo h1 {
