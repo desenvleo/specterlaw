@@ -13,69 +13,69 @@
         overflow-x: hidden;
         /* Tira a borda branca. */
         box-sizing: border-box;
-        body {
-                background-color: #c90fb9;
-                /* ou cor do topo */
-            }
-    }
 
-    .header ul {
-        display: none;
+        background-color: #c90fb9;
+        /* ou cor do topo */
     }
+}
 
-    .sectionTitulo {
-        height: 100vh;
-        width: auto;
-        position: relative;
-        padding-bottom: 0;
-        height: calc(100dvh - 70px);
-        /* subtrai a altura do header */
-        min-height: calc(100dvh - 70px);
-    }
+.header ul {
+    display: none;
+}
 
-    .sectionTitulo h1 {
-        position: absolute;
-        left: 25%;
-        font-size: 2.5em;
-        text-align: left;
-    }
+.sectionTitulo {
+    height: 100vh;
+    width: auto;
+    position: relative;
+    padding-bottom: 0;
+    height: calc(100dvh - 70px);
+    /* subtrai a altura do header */
+    min-height: calc(100dvh - 70px);
+}
 
-    .sectionTitulo h2 {
-        position: absolute;
-        left: 20%;
-        top: 30%;
-        font-size: 1.5em;
-        width: 70%;
-    }
+.sectionTitulo h1 {
+    position: absolute;
+    left: 25%;
+    font-size: 2.5em;
+    text-align: left;
+}
 
-    .chat {
-        position: absolute;
-        top: 44%;
-        left: 19%;
-    }
+.sectionTitulo h2 {
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    font-size: 1.5em;
+    width: 70%;
+}
 
-    .sectionBlocos {
-        display: flex;
-        height: auto;
-        background-image: url(../imagenslanding/lineargradient.png);
-        margin-top: 0;
-        padding-top: 0;
-    }
+.chat {
+    position: absolute;
+    top: 44%;
+    left: 19%;
+}
 
-    .areasAtuacao {
-        background-image: url(../imagenslanding/gradientlinear.png);
-    }
+.sectionBlocos {
+    display: flex;
+    height: auto;
+    background-image: url(../imagenslanding/lineargradient.png);
+    margin-top: 0;
+    padding-top: 0;
+}
 
-    .areasList {
-        display: none;
-    }
+.areasAtuacao {
+    background-image: url(../imagenslanding/gradientlinear.png);
+}
 
-    .formularios {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: auto;
-    }
+.areasList {
+    display: none;
+}
+
+.formularios {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
 
 
 
