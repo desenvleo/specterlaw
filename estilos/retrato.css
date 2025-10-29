@@ -13,6 +13,10 @@
         overflow-x: hidden;
         /* Tira a borda branca. */
         box-sizing: border-box;
+        body {
+                background-color: #c90fb9;
+                /* ou cor do topo */
+            }
     }
 
     .header ul {
