@@ -5,21 +5,18 @@
 @media screen and (max-width: 768px) {
 
     html,
-        body {
-            height: 100vh;
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            overflow-x: hidden;
-            /* impede borda branca no Safari */
-            box-sizing: border-box;
-        }
+    body {
+        height: 100vh;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        /* impede borda branca no Safari */
+        box-sizing: border-box;
+    }
+
     
-        * {
-            box-sizing: inherit;
-            max-width: 100vw;
-            /* impede qualquer elemento de ultrapassar a tela */
-        }
+
     .header ul {
         display: none;
     }
@@ -69,8 +66,10 @@
     .formularios {
         display: flex;
         flex-direction: column;
-        width: 35%;
+        width: 100%;
         height: auto;
     }
+
+    .primeiroform {}
 
 }
